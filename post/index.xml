@@ -13,7 +13,7 @@
       <link>http://localhost:1313/post/first/</link>
       <pubDate>Sun, 24 Mar 2024 19:51:03 +0800</pubDate>
       <guid>http://localhost:1313/post/first/</guid>
-      <description>Something will be better in the future.</description>
+      <description>Something will be better in the future.&#xA;If I&amp;rsquo;m a strong man.</description>
     </item>
   </channel>
 </rss>
