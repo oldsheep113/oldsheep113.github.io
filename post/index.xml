@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>https://oldsheep113.github.io/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on Oldsheep</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Oldsheep</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Mar 2024 19:51:03 +0800</lastBuildDate>
-    <atom:link href="https://oldsheep113.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
-      <link>https://oldsheep113.github.io/post/first/</link>
+      <link>http://localhost:1313/post/first/</link>
       <pubDate>Sun, 24 Mar 2024 19:51:03 +0800</pubDate>
-      <guid>https://oldsheep113.github.io/post/first/</guid>
-      <description>Something will be better in the future.&#xA;If I&amp;rsquo;m a strong man.&#xA;今天是个好天气，哦耶。</description>
+      <guid>http://localhost:1313/post/first/</guid>
+      <description>Something will be better in the future.&#xA;If I&amp;rsquo;m a strong man.</description>
     </item>
   </channel>
 </rss>

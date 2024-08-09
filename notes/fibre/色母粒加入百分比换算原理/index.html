@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>色母粒加入百分比换算原理 &middot; Oldsheep</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/sheep-ati.png">
+  <link rel="shortcut icon" href="/sheep-favicon.ico">
+
+  
+  
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+          {left: "$", right: "$", display: false}
+        ]
+      });
+    });
+  </script>
+  
+  
+
+</head>
+
+  <body class="theme-base-09 ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://localhost:1313/"><h1>Oldsheep</h1></a>
+      <p class="lead">
+       我是忽悠老羊，欢迎来到我的站点 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="http://localhost:1313/">Home</a> </li>
+        <li><a href="https://space.bilibili.com/489972934"> Bilibili </a></li><li><a href="https://github.com/oldsheep113/"> Github </a></li><li><a href="/notes/"> Notes </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2024. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>色母粒加入百分比换算原理</h1>
+  <time datetime=2024-08-06T22:05:32&#43;0800 class="post-date">Tue, Aug 6, 2024</time>
+  <blockquote>
+<p>一言以蔽之:当两规格纤维颜色相同时，其母粒加入量比值为两纤维单丝截面孔径比之倒数</p>
+</blockquote>
+<blockquote>
+<p>$$
+\frac{A}{V}\propto\frac{1}{d}
+\Rightarrow
+\frac{J_a}{J_b} = \frac{\sqrt{D_b}}{\sqrt{D_a}}=\sqrt{\frac{D_b}{D_a}}
+$$</p>
+</blockquote>
+<h2 id="原理-比表面积">原理-比表面积</h2>
+<ol>
+<li>纱线颜色由单丝颜色决定。</li>
+<li>单丝颜色与单丝表面积相关，色光由单丝表面反射。</li>
+<li>单丝颜色与单丝体积相关，色粉通过母粒均匀分布在单丝内。</li>
+<li>颜色是均匀分布在单丝表面的。</li>
+</ol>
+<p>结论：单丝体表单位面积内色粉含量相同时单丝颜色相同</p>
+<h2 id="前提条件">前提条件</h2>
+<p>假设存在 a 和 b 两种不同规格的 POY，使用同一种色母粒，</p>
+<h2 id="符号及字母表征">符号及字母表征</h2>
+<ul>
+<li>两种规格的丝：$a$与$b$</li>
+<li>纤度：$D$,单丝纤度：$dpf$ (<em>dtex per fibre</em>)</li>
+<li>定长：$L$</li>
+<li>体积：$V$,$a$ 体积为$V_a$ , $b$ 体积为 $V_b$</li>
+<li>侧面积：$A$，$a$ 侧面积为$A_a$ ,$b$ 侧面积为 $A_b$</li>
+<li>截面积：$S$ , $a$ 截面积为$S_a$ ,$b$ 截面积为 $S_b$</li>
+<li>截面直径：$d$，截面半径：$r$</li>
+<li>加入百分比：$a $中色母粒加入百分比为  $J_a$ , $b$ 中色母粒加入百分比为 $J_b$</li>
+</ul>
+<h2 id="相关推导">相关推导</h2>
+<p>引入<a href="https://baike.baidu.com/item/%E6%AF%94%E8%A1%A8%E9%9D%A2%E7%A7%AF/1918432">比表面积</a>原理，根据原理“单丝体表单位面积内色粉含量相同时单丝颜色相同”，比表面积能够很好地表示单位体积纤维表面积的色粉分布情况，可以用 $\frac{A}{V}$ 表示，其中 $A$ 表示纤维表面积， $V$ 表示纤维体积。 当不同纤维的<code>AV</code>比趋近相同时，颜色也趋近相同。</p>
+<p>将单丝视作一个圆柱体，其表面积 $A$ 则视作圆柱的展开侧面积，</p>
+<p>其计算公式为：$A = 2\pi r\cdot L$</p>
+<p>其体积 $V$ 计算公式为：$V = S\cdot L$</p>
+<p>其中，截面积 $S = \pi r^2$</p>
+<p>由此可得 $\frac{A}{V}$ 计算为：</p>
+<p>$$
+\frac{A}{V} = \frac{2\pi r\cdot L}{S\cdot L} = \frac{2\pi r}{\pi r^2} = \frac{2}{r} = \frac{4}{d}
+$$</p>
+<p>由此可得</p>
+<p>$$
+\frac{A}{V}\propto\frac{1}{d}
+$$</p>
+<p>以上可以得到决定颜色的<code>AV</code>比与单丝孔径呈反比，可得：</p>
+<p>$$
+\frac{J_a}{J_b} = \frac{d_b}{d_a}
+$$</p>
+<p>然而单丝的孔径过于微细不便测量，却可以通过已知的其他条件转换计算，即对于单丝体积和质量的转换计算。</p>
+<p>引入纤度概念，此处使用的纤度单位为<code>dtex</code>，即表示每<code>10000</code>米长的纱线的质量，已知$D_a=a&rsquo;$,$D_b=b&rsquo;$,假设$L=10000 m$,$M_a=a&rsquo;$,$M_b=b&rsquo;$.
+由物质密度公式可得$V=\frac{M}{\rho}$，故而体积$V$存在两种表达方式：</p>
+<p>$$
+V=S\cdot L=\pi r^2\cdot L=\frac{M}{\rho}
+$$</p>
+<p>为求$d$，则将$r$取出求</p>
+<p>$$
+r^2=\frac{M}{\rho\pi L}\Rightarrow r=\sqrt{\frac{M}{\rho\pi L}}
+$$</p>
+<p>已知两丝材质相同且加入为同一母粒，故而 $\rho$ 相同，且常数$\pi$与$L$于二纤维无差异，即可得：</p>
+<p>$$
+\frac{d}{2}=r\propto\sqrt{M}\Rightarrow\frac{J_a}{J_b} = \sqrt{\frac{M_b}{M_a}}
+$$</p>
+<p>质量由纤度决定，故而最终可得：</p>
+<p>$$
+\frac{J_a}{J_b} = \sqrt{\frac{D_b}{D_a}}
+$$</p>
+</div>
+
+
+
+
+    </main>
+
+    
+  </body>
+</html>
