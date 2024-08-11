@@ -2,31 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oldsheep</title>
-    <link>http://localhost:1313/</link>
+    <link>https://oldsheep113.github.io/</link>
     <description>Recent content on Oldsheep</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Aug 2024 22:05:32 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>色母粒加入百分比换算原理</title>
-      <link>http://localhost:1313/notes/fibre/%E8%89%B2%E6%AF%8D%E7%B2%92%E5%8A%A0%E5%85%A5%E7%99%BE%E5%88%86%E6%AF%94%E6%8D%A2%E7%AE%97%E5%8E%9F%E7%90%86/</link>
-      <pubDate>Tue, 06 Aug 2024 22:05:32 +0800</pubDate>
-      <guid>http://localhost:1313/notes/fibre/%E8%89%B2%E6%AF%8D%E7%B2%92%E5%8A%A0%E5%85%A5%E7%99%BE%E5%88%86%E6%AF%94%E6%8D%A2%E7%AE%97%E5%8E%9F%E7%90%86/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;一言以蔽之:当两规格纤维颜色相同时，其母粒加入量比值为两纤维单丝截面孔径比之倒数&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
-    </item>
+    <lastBuildDate>Sun, 24 Mar 2024 19:51:03 +0800</lastBuildDate>
+    <atom:link href="https://oldsheep113.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
-      <link>http://localhost:1313/post/first/</link>
+      <link>https://oldsheep113.github.io/post/first/</link>
       <pubDate>Sun, 24 Mar 2024 19:51:03 +0800</pubDate>
-      <guid>http://localhost:1313/post/first/</guid>
+      <guid>https://oldsheep113.github.io/post/first/</guid>
       <description>Something will be better in the future.&#xA;If I&amp;rsquo;m a strong man.</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://oldsheep113.github.io/about/</link>
       <pubDate>Sun, 24 Mar 2024 19:49:57 +0800</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://oldsheep113.github.io/about/</guid>
       <description>&lt;p&gt;&lt;code&gt;hello world&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;你好，这里是关于&lt;code&gt;oldsheep113&lt;/code&gt;博客的相关介绍。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Oldsheep</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://oldsheep113.github.io/post/</link>
     <description>Recent content in Posts on Oldsheep</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Mar 2024 19:51:03 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://oldsheep113.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
-      <link>http://localhost:1313/post/first/</link>
+      <link>https://oldsheep113.github.io/post/first/</link>
       <pubDate>Sun, 24 Mar 2024 19:51:03 +0800</pubDate>
-      <guid>http://localhost:1313/post/first/</guid>
+      <guid>https://oldsheep113.github.io/post/first/</guid>
       <description>Something will be better in the future.&#xA;If I&amp;rsquo;m a strong man.</description>
     </item>
   </channel>
