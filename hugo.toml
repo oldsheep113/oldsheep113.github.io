@@ -1,5 +1,5 @@
 baseURL = "https://blog.best-fiber.shop/"
-languageCode = "en-us"
+languageCode = "zh-cn"
 title = "Oldsheep"
 
 [params]
@@ -19,4 +19,9 @@ title = "Oldsheep"
 [[menu.main]]
   name = "Notes"
   url = "/notes/"
+  weight = 40
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
   weight = 30
