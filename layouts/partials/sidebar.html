@@ -1,0 +1,19 @@
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="{{ .Site.Home.RelPermalink }}"><h1>{{ .Site.Title }}</h1></a>
+      <p class="lead">
+       {{ .Site.Params.description }}
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="{{ .Site.Home.RelPermalink }}">Home</a> </li>
+        {{ range .Site.Menus.main }}<li><a href="{{ .URL }}"> {{ .Name }} </a></li>{{ end }}
+      </ul>
+    </nav>
+
+    <p>&copy; {{ now.Year }}. All rights reserved. </p>
+  </div>
+</aside>

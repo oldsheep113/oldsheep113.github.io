@@ -1,0 +1,22 @@
+baseURL = "https://oldsheep113.github.io/"
+languageCode = "en-us"
+title = "Oldsheep"
+
+[params]
+  description = "我是忽悠老羊，欢迎来到我的站点"
+  theme = "theme-base-09"
+
+[[menu.main]]
+  name = "Bilibili"
+  url = "https://space.bilibili.com/489972934"
+  weight = 10
+
+[[menu.main]]
+  name = "Github"
+  url = "https://github.com/oldsheep113/"
+  weight = 20
+
+[[menu.main]]
+  name = "Notes"
+  url = "/notes/"
+  weight = 30

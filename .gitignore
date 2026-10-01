@@ -1,1 +1,10 @@
+public/
+resources/
+.hugo_build.lock
 .vs/
+tools/
+
+# 本地辅助脚本：只在这台机器上用，不进版本库
+本地预览.cmd
+发布到网站.cmd
+scripts/

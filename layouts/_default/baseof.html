@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ .Site.LanguageCode }}" lang="{{ .Site.LanguageCode }}">
+<head>
+{{ partial "head.html" . }}
+</head>
+
+  <body class="{{ .Site.Params.theme }} ">
+{{ partial "sidebar.html" . }}
+
+    <main class="content container">
+{{ block "main" . }}{{ end }}
+    </main>
+
+{{ block "footer" . }}{{ end }}
+  </body>
+</html>
