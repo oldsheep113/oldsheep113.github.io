@@ -7,31 +7,43 @@ title = "Oldsheep"
   theme = "theme-base-09"
 
 [[menu.main]]
-  name = "Bilibili"
-  url = "https://space.bilibili.com/489972934"
+  name = "首页"
+  url = "/"
+  identifier = "home"
   weight = 10
 
 [[menu.main]]
-  name = "Github"
-  url = "https://github.com/oldsheep113/"
+  name = "笔记"
+  url = "/notes/"
+  identifier = "notes"
   weight = 20
 
 [[menu.main]]
-  name = "Notes"
-  url = "/notes/"
-  weight = 40
-
-[[menu.main]]
-  name = "About"
-  url = "/about/"
+  name = "日志"
+  url = "/diary/"
+  identifier = "diary"
   weight = 30
 
 [[menu.main]]
-  name = "Links"
+  name = "友链"
   url = "/links/"
-  weight = 35
+  identifier = "links"
+  weight = 40
 
 [[menu.main]]
-  name = "Diary"
-  url = "/diary/"
+  name = "关于"
+  url = "/about/"
+  identifier = "about"
   weight = 50
+
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/oldsheep113/"
+  identifier = "github"
+  weight = 60
+
+[[menu.main]]
+  name = "哔哩哔哩"
+  url = "https://space.bilibili.com/489972934"
+  identifier = "bilibili"
+  weight = 70

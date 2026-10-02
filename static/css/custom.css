@@ -1,3 +1,87 @@
+/* 站点字体：Selawik 是微软开源的 Segoe UI 度量兼容字体，SIL OFL 1.1 */
+@font-face {
+  font-family: "Selawik";
+  src: url("/fonts/selawik-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 侧边栏导航 */
+.sidebar-about h1 {
+  font-family: "Selawik", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.sidebar-nav {
+  margin-top: 1.5rem;
+}
+
+.sidebar-nav-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav-home {
+  grid-column: 1 / -1;
+}
+
+.sidebar-nav a.sidebar-nav-item {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  min-width: 0;
+  padding: .5rem .6rem;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, .1);
+  color: #fff;
+  font-size: .85rem;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background-color .15s ease;
+}
+
+.sidebar-nav a.sidebar-nav-item:hover,
+.sidebar-nav a.sidebar-nav-item:focus {
+  background-color: rgba(255, 255, 255, .2);
+  text-decoration: none;
+}
+
+.sidebar-nav a.sidebar-nav-item.active {
+  background-color: rgba(255, 255, 255, .28);
+  font-weight: bold;
+}
+
+.sidebar-nav .nav-icon {
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.sidebar-nav .nav-icon svg {
+  width: 1.05rem;
+  height: 1.05rem;
+}
+
+.sidebar-nav .nav-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sidebar-nav-external {
+  margin-top: .75rem;
+  padding-top: .75rem;
+  border-top: 1px solid rgba(255, 255, 255, .25);
+}
+
+.sidebar-nav + p {
+  margin-top: 1.25rem;
+}
+
 /* 友链页面 */
 .links-page .link-list {
   display: grid;

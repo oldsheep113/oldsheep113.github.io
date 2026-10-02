@@ -7,10 +7,33 @@
       </p>
     </div>
 
-    <nav>
-      <ul class="sidebar-nav">
-        <li><a href="{{ .Site.Home.RelPermalink }}">Home</a> </li>
-        {{ range .Site.Menus.main }}<li><a href="{{ .URL }}"> {{ .Name }} </a></li>{{ end }}
+    <nav class="sidebar-nav" aria-label="站点导航">
+      {{ $current := .RelPermalink }}
+      <ul class="sidebar-nav-list">
+        {{ range .Site.Menus.main }}
+        {{ if not (hasPrefix .URL "http") }}
+        {{ $active := cond (eq .URL "/") (eq $current "/") (hasPrefix $current .URL) }}
+        <li{{ if eq .Identifier "home" }} class="sidebar-nav-home"{{ end }}>
+          <a class="sidebar-nav-item{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}"{{ if $active }} aria-current="page"{{ end }}>
+            <span class="nav-icon">{{ partial "icon.html" .Identifier }}</span>
+            <span class="nav-label">{{ .Name }}</span>
+          </a>
+        </li>
+        {{ end }}
+        {{ end }}
+      </ul>
+
+      <ul class="sidebar-nav-list sidebar-nav-external">
+        {{ range .Site.Menus.main }}
+        {{ if hasPrefix .URL "http" }}
+        <li>
+          <a class="sidebar-nav-item" href="{{ .URL }}" target="_blank" rel="noopener noreferrer">
+            <span class="nav-icon">{{ partial "icon.html" .Identifier }}</span>
+            <span class="nav-label">{{ .Name }}</span>
+          </a>
+        </li>
+        {{ end }}
+        {{ end }}
       </ul>
     </nav>
 
