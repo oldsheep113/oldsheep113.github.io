@@ -25,3 +25,8 @@ title = "Oldsheep"
   name = "About"
   url = "/about/"
   weight = 30
+
+[[menu.main]]
+  name = "Diary"
+  url = "/diary/"
+  weight = 50
