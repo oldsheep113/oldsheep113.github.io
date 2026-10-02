@@ -27,6 +27,11 @@ title = "Oldsheep"
   weight = 30
 
 [[menu.main]]
+  name = "Links"
+  url = "/links/"
+  weight = 35
+
+[[menu.main]]
   name = "Diary"
   url = "/diary/"
   weight = 50

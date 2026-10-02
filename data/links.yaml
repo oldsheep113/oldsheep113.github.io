@@ -1,0 +1,12 @@
+# 友链列表。想添加一条，复制下面四行并把开头的 # 去掉即可。
+# avatar 可以省略，省略时显示一个「友」字占位。
+#
+# - name: 站点名称
+#   url: https://example.com/
+#   description: 一句话简介
+#   avatar: /images/links/example.png
+
+- name: izfsk
+  url: https://izk.gripe/
+  description: 我的好朋友，我的引路人，我的教父。
+  avatar: https://izk.gripe/apple-touch-icon.png

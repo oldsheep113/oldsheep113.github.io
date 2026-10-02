@@ -1,0 +1,88 @@
+/* 友链页面 */
+.links-page .link-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: .75rem;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links-page a.link-card {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  height: 100%;
+  padding: .75rem;
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 6px;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color .15s ease, background-color .15s ease;
+}
+
+.links-page a.link-card:hover,
+.links-page a.link-card:focus {
+  border-color: #d28445;
+  background-color: rgba(210, 132, 69, .06);
+  text-decoration: none;
+}
+
+.links-page .link-avatar {
+  display: flex;
+  flex: 0 0 2.5rem;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: rgba(210, 132, 69, .12);
+}
+
+.links-page .link-avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.links-page .link-avatar-fallback {
+  color: #d28445;
+  font-size: .9rem;
+}
+
+.links-page .link-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.links-page .link-name {
+  overflow: hidden;
+  color: #313131;
+  font-weight: bold;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.links-page a.link-card:hover .link-name,
+.links-page a.link-card:focus .link-name {
+  color: #d28445;
+}
+
+.links-page .link-desc {
+  display: -webkit-box;
+  overflow: hidden;
+  color: #757575;
+  font-size: .8rem;
+  line-height: 1.4;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.links-page .link-empty {
+  margin-top: 1.5rem;
+  color: #757575;
+}
