@@ -82,6 +82,18 @@
   margin-top: 1.25rem;
 }
 
+.sidebar-counter {
+  margin: 1rem 0;
+}
+
+.sidebar-counter img {
+  display: block;
+  width: 100%;
+  max-width: 315px;
+  height: auto;
+  margin: 0 auto;
+}
+
 /* 友链页面 */
 .links-page .link-list {
   display: grid;
