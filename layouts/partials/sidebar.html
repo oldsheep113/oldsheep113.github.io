@@ -1,9 +1,11 @@
-  <aside class="sidebar">
+<aside class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <a href="{{ .Site.Home.RelPermalink }}"><h1>{{ .Site.Title }}</h1></a>
+      <a href="{{ .Site.Home.RelPermalink }}">
+        <h1>{{ .Site.Title }}</h1>
+      </a>
       <p class="lead">
-       {{ .Site.Params.description }}
+        {{ .Site.Params.description }}
       </p>
     </div>
 
@@ -13,14 +15,19 @@
         {{ range .Site.Menus.main }}
         {{ if not (hasPrefix .URL "http") }}
         {{ $active := cond (eq .URL "/") (eq $current "/") (hasPrefix $current .URL) }}
-        <li{{ if eq .Identifier "home" }} class="sidebar-nav-home"{{ end }}>
-          <a class="sidebar-nav-item{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}"{{ if $active }} aria-current="page"{{ end }}>
+        <li{{ if eq .Identifier "home" }} class="sidebar-nav-home" {{ end }}>
+          <a class="sidebar-nav-item{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}" {{ if $active }}
+            aria-current="page" {{ end }}>
             <span class="nav-icon">{{ partial "icon.html" .Identifier }}</span>
             <span class="nav-label">{{ .Name }}</span>
           </a>
-        </li>
-        {{ end }}
-        {{ end }}
+          </li>
+          {{ end }}
+          {{ end }}
+      </ul>
+
+      <ul style="margin: 20px;padding: 0;">
+        <img src="https://count.moeyy.cn/@:oldsheep-113" alt=":oldsheep-113">
       </ul>
 
       <ul class="sidebar-nav-list sidebar-nav-external">
