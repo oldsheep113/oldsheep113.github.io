@@ -106,7 +106,7 @@ tags:
 
 ## 阅读与出处
 
-- 高尔斯华绥：《品质》（Quality 原文）。本文对情节作概述。
-- 电影《大赢家》。姚警官台词据1905 电影网 2020 年 3 月 27 日报道。
-- 电视剧《狂飙》，爱奇艺官方剧集页。
-- 《明史》卷二百二十六·海瑞传、卷二百一十三·张居正传。
+- 高尔斯华绥：《品质》（[Quality 原文](https://nmi.org/wp-content/uploads/2015/01/1295.pdf)）。本文对情节作概述。
+- 电影《大赢家》。姚警官台词据[1905 电影网 2020 年 3 月 27 日报道](https://www.1905.com/news/20200327/1447205.shtml)。
+- 电视剧《狂飙》，[爱奇艺官方剧集页](https://www.iqiyi.com/a_1fkgtbddd2x.html)。
+- 《明史》[卷二百二十六·海瑞传](https://zh.wikisource.org/zh-hans/%E6%98%8E%E5%8F%B2/%E5%8D%B7226)、[卷二百一十三·张居正传](https://zh.wikisource.org/zh-hans/%E6%98%8E%E5%8F%B2/%E5%8D%B7213)。
